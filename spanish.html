@@ -15,24 +15,6 @@ header
     text-align: center;
 }
 
-.fixedHeader
-{
-    text-align: center;
-    background: rgb(255, 255, 255);
-    position: fixed;
-    width: 100%;
-}
-.centeredOnImage
-
-{
-    color:rgb(255, 255, 255);
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    
-}
-
 h1
 {
     text-align: center;
@@ -56,14 +38,46 @@ a
     color:rgb(0, 0, 0);
     text-decoration: none;
 }
+
+a.ProjectLinks
+{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+a.ProjectLinks:hover
+{
+    color:rgb(0, 0, 0);;
+    text-decoration: none;
+}
+
 a:hover
 {
     color:rgb(55, 67, 85);
 }
+
 .underlined
 {
-    text-decoration:underline;
+    text-decoration: underline;
 }
+
+.fixedHeader
+{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+}
+
+.centeredOnImage
+{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+
 .centeredImage
 {
     display: block;
@@ -95,12 +109,14 @@ a:hover
             <h3><a href="elective.html"><font size="4">Programmer's Place</font></a></h3>
             <h3><a href="personal_projects.html"><font size="4">Personal Projects</font></a></h3>
         </ul>
-    </div>  
-    <img class = "centeredImage" src="Pictures/1200px-Flag_of_Spain.svg.png" width="78%" length="78%" mar/>
-    <h2 class="centeredOnImage"><font size="8">Spanish</font></h2>
-    <h1><font size ="8">Projects</font></h1>
-    <h4><a href="spanish_PhotoProject.html"><font size="5">Proyecto de fotoperiodismo</font></a></h4>
+    </div> 
 
+    <div>
+        <img class = "centeredImage" src="Pictures/1200px-Flag_of_Spain.svg.png" width="78%" length="78%" mar/>
+        <h2 class="centeredOnImage"><font size="8">Spanish</font></h2>
+        <h1><font size ="8">Projects</font></h1>
+        <h4><a href="spanish_PhotoProject.html" class = "ProjectLinks"><font size="5">Proyecto De Fotoperiodismo</font></a></h4>
+    </div>
     
 </body>
 </html
