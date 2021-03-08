@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<style>
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+header
+{
+    margin: 1.5%;
+    text-align: center;
+}
+
+p
+{
+    margin: 1.5% 20%;
+}
+
+.fixedHeader
+{
+    text-align: center;
+    max-width: 100px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+}
+
+.centeredOnImage
+{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+}
+.miniBio
+{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top:16%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+h2
+{
+    animation: fadeIn 3s;
+}
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+h3
+{
+    display: inline-block;
+    margin: 0% 0.8%;
+    font-size: 0.8vw;
+}
+a
+{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover
+{
+    color:rgb(55, 67, 85);
+}
+.underlined
+{
+    text-decoration:underline;
+}
+
+
+</style>
+
+<head>
+    <title>Dillon's Digital Portfolio</title>
+</head>
+<html>
+<body>
+    <div class = "fixedHeader">
+        <ul>
+            <h3 class ="underlined">Home</font></h3>
+            <h3><a href="math_science.html">Math & Science</font></a></h3>
+            <h3><a href="humanities.html">Humanities</font></a></h3>
+            <h3><a href="spanish.html">Spanish</font></a></h3>
+            <h3><a href="elective.html">Programmer's Place</font></a></h3>
+            <h3><a href="personal_projects.html">Personal Projects</font></a></h3>
+        </ul>
+    </div>  
+
+    <div>
+        
+        <header class="centeredOnImage"><font size="6">Hi, I'm Dillon.</font></header>
+        <header class="miniBio"><font size="4">I'm a video game developer and composer at High Tech High North County.</font></header>   
+        <img class="portalGun" src="Pictures/PortalGunFinal.png" width="100%" length="100%" mar/>
+        <header><font size ="6">About Me</font></header>
+        <p><font size ="4"> name is Dillon Jones and I spend most of my time game developing and writing music. I was inspired by some of my friends work to start programming a little over one year ago when I started robotics. Our robotics team last year was placed in the semi finals which our team is quite happy about. I also enjoy learning about world history and geography because of the cultures and sense of diversity it shows me. </font></p>
+    </div>
+</body>
+</html>
